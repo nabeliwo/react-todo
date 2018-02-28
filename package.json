@@ -1,0 +1,28 @@
+{
+  "name": "marko-todo",
+  "version": "1.0.0",
+  "description": "packman made by [Marco](https://github.com/marko-js/marko)",
+  "scripts": {
+    "clean": "rm -rf build",
+    "copy": "cp src/index.html index.html",
+    "build": "lasso src/browser.json --inject-into index.html --config lasso-config.json",
+    "watch": "npm run build -- -w",
+    "dev": "run-s clean copy watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeliwo/marko-todo.git"
+  },
+  "author": "nabeliwo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabeliwo/marko-todo/issues"
+  },
+  "homepage": "https://github.com/nabeliwo/marko-todo#readme",
+  "dependencies": {
+    "lasso-cli": "^2.0.11",
+    "lasso-marko": "^2.4.0",
+    "marko": "^4.8.0",
+    "npm-run-all": "^4.1.2"
+  }
+}

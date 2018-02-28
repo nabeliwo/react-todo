@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "lasso-marko"
+  ],
+  "outputDir": "build/",
+  "fingerprintsEnabled": true,
+  "bundlingEnabled": true
+}
