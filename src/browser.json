@@ -1,6 +1,0 @@
-{
-  "dependencies": [
-    "./base.css",
-    "require-run: ./app"
-  ]
-}
